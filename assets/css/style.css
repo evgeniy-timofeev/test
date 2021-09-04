@@ -9,9 +9,6 @@ body {
     color: #fff !important;
 }
 
-h1 {
-    padding: 10px
-}
 
 table {
     border-collapse: collapse;
@@ -60,6 +57,10 @@ section:after {
     content: "";
     display: block;
     clear: both;
+}
+
+#test {
+     padding: 10px;
 }
 
 .treadmill {

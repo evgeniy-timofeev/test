@@ -1,5 +1,7 @@
 <section id="control">
     <h2>Controls</h2>
+    <p><strong>HTML:</strong> <a href="//github.com/evgeniy-timofeev/test/blob/master/view/section_controls.php" target="_blank">view/section_controls.php</a></p>
+    <p><strong>JS:</strong> <a href="//github.com/evgeniy-timofeev/test/blob/master/assets/js/controls.js" target="_blank">assets/js/controls.js</a></p>
     <p>8. Тест для проверки для проверки владения control-ами (кнопки, закладки, диалоговые окна, разделители).</p>
     <ol>
         <li>Требуется написать html+css+js код страницы, разделенной на три части (div-а): слева панель на всю высоту

@@ -1,5 +1,6 @@
 <section id="join">
     <h2>SQL JOIN</h2>
+    <p><strong>HTML/PHP:</strong> <a href="//github.com/evgeniy-timofeev/test/blob/master/view/section_sql_join.php" target="_blank">view/section_sql_join.php</a></p>
     <p>6. Доработайте код предыдущего теста, чтобы отображалось объединение двух таблиц (набор столбцов в результате –
        объединение полей таблиц), связанных внешними ключами.</p>
     

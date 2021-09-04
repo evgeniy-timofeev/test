@@ -74,7 +74,10 @@
 </head>
 <body>
 <header id="test">
+
     <h1>Тестовое задание</h1>
+    <a href="https://github.com/evgeniy-timofeev/test" target="_blank">Project on github.</a>
+
 </header>
 
 <?php require_once 'view/section_flip.php' ?>
