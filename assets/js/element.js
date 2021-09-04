@@ -7,8 +7,8 @@ maxElemLeft = document.querySelector('#element').clientWidth - elem.offsetWidth;
 maxElemTop = document.querySelector('#element').clientHeight - elem.offsetHeight;
 
 elem.onmousemove = () => {
-  elemLeft = Math.random() * maxElemLeft;
-  elem.style.left = elemLeft + 'px';
-  elemTop = Math.random() * maxElemTop;
-  elem.style.top = elemTop + 'px';
+    elemLeft = Math.random() * maxElemLeft;
+    elem.style.left = elemLeft + 'px';
+    elemTop = Math.random() * maxElemTop;
+    elem.style.top = elemTop + 'px';
 }

@@ -2,13 +2,13 @@
 let textarea = document.querySelector('#id1')
 
 async function ajaxToTextarea(url) {
-  let response = await fetch(url)
-  response.text().then(text => {
-  	textarea.value = text
-  })
+    let response = await fetch(url)
+    response.text().then(text => {
+        textarea.value = text
+    })
 }
-  
+
 
 textarea.onclick = () => {
-	ajaxToTextarea('http://test/test.txt')
+    ajaxToTextarea('/test.txt')
 }

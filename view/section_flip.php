@@ -1,7 +1,7 @@
 <section id="array_flip">
-		<h2>Array Flip JS</h2>
-		<p>1. Напишите аналог php-функции array_flip на JavaSrcipt (ключи и значения меняются местами).</p>
-		<div class="code">
+    <h2>Array Flip JS</h2>
+    <p>1. Напишите аналог php-функции array_flip на JavaSrcipt (ключи и значения меняются местами).</p>
+    <div class="code">
 
 				
 					<pre>
@@ -21,13 +21,13 @@
 		return temp
 	}
 					</pre>
-				
-		</div>
-		<div class="data">
-			<p>Обработанные данные:</p>
-			<code class="datumn">
-					
-			</code>
-			
-		</div>
-	</section>
+
+    </div>
+    <div class="data">
+        <p>Обработанные данные:</p>
+        <code class="datumn">
+
+        </code>
+
+    </div>
+</section>

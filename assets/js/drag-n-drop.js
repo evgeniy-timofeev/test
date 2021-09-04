@@ -34,12 +34,12 @@ if (dropZone) {
         dropZone.classList.add('hover')
         return false
     }
-    
+
     dropZone.ondragleave = () => {
         dropZone.classList.remove('hover')
         return false
     }
-    
+
     dropZone.ondrop = function (event) {
         event.preventDefault()
 
@@ -47,7 +47,7 @@ if (dropZone) {
         dropZone.classList.add('drop')
 
         let file = event.dataTransfer.files[0]
-        
+
         if (file.size > maxFileSize) {
             textZone.classList.remove('error')
             return false
