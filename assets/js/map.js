@@ -58,7 +58,7 @@ function calculateDistance(layer) {
         tempLatLng = latlng
     })
 
-    $('#mapCalculatedArea').html(`<div class="row"><div class="col-md-12"><strong>Поверхность: </strong> ${totalDistance.toFixed(0)}  метрыов </div></div>`)
+    $('#mapCalculatedPerimeter').html(`<div class="row"><div class="col-md-12"><strong>Периметр: </strong> ${totalDistance.toFixed(0)}  метров </div></div>`)
 }
 
 function editMarkers() {
