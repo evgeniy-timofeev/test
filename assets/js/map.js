@@ -28,17 +28,17 @@ $(document).ready(function () {
     calculateArea(layer)
     calculateDistance(layer)
 
-    let isDown = false
+    let isCapturedMarker = false
 
     $(".leaflet-marker-pane").on('mousedown', () => {
-        isDown = true
+        isCapturedMarker = true
     })
 
     $('#areaMap').on('mouseup', (e) => {
-        if(isDown) {
+        if(isCapturedMarker) {
             calculateArea(layer)
             calculateDistance(layer)
-            isDown = false
+            isCapturedMarker = false
         }
     })
 })
