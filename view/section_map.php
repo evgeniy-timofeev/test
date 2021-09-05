@@ -9,23 +9,8 @@
     <div id="search_street_container" class="col-md-12">
 
         <div id="map_controls_options">
-            <div class="clearfix">
-                <div class="col-md-8">
-                    <p>
-                        <input type="button"
-                               onclick="editMarkers();"
-                               class="btn lf-btn"
-                               value="Редактировать маркеры"
-                               id="edit-markers">
-                        <input type="button"
-                               onclick="calculateResult();"
-                               class="btn lf-res-btn"
-                               value="Подсчитывать"
-                               id="calculate-result">
-                    </p>
-                </div>
-            </div>
-            <div id="map_tools"></div>
+            <div id="mapCalculatedArea"></div>
+            <div id="mapCalculatedPerimeter"></div>
             <div id="areaMap"></div>
         </div>
     </div>
