@@ -88,11 +88,9 @@ function calculateArea(layer) {
 
 function editMarkers() {
     if (layer != null) {
-        edit_area_flag = true;
-        polygon.disable();
-        layer.editing.enable();
-        $('#remove-last-marker').prop('disabled', true);
-        $('#clear-markers').prop('disabled', true);
+        edit_area_flag = true
+        polygon.disable()
+        layer.editing.enable()
     }
 }
 
