@@ -3,12 +3,12 @@ let elemLeft, elemTop, maxElemLeft, maxElemTop, elem
 
 elem = document.querySelector('.runner')
 
-maxElemLeft = document.querySelector('#element').clientWidth - elem.offsetWidth;
-maxElemTop = document.querySelector('#element').clientHeight - elem.offsetHeight;
+maxElemLeft = document.querySelector('.treadmill').clientWidth - elem.offsetWidth
+maxElemTop = document.querySelector('.treadmill').clientHeight - elem.offsetHeight
 
 elem.onmousemove = () => {
-    elemLeft = Math.random() * maxElemLeft;
-    elem.style.left = elemLeft + 'px';
-    elemTop = Math.random() * maxElemTop;
-    elem.style.top = elemTop + 'px';
+    elemLeft = Math.random() * maxElemLeft
+    elem.style.left = elemLeft + 'px'
+    elemTop = Math.random() * maxElemTop
+    elem.style.top = elemTop + 'px'
 }
