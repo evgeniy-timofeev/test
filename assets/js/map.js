@@ -25,15 +25,22 @@ $(document).ready(function () {
     drawnItems.addLayer(layer)
 
     editMarkers()
-
     calculateArea(layer)
     calculateDistance(layer)
 
-    $('.leaflet-marker-pane').on('click mouseup', () => {
-        calculateArea(layer)
-        calculateDistance(layer)
+    let isDown = false
+
+    $(".leaflet-marker-pane").on('mousedown', () => {
+        isDown = true
     })
 
+    $('#areaMap').on('mouseup', (e) => {
+        if(isDown) {
+            calculateArea(layer)
+            calculateDistance(layer)
+            isDown = false
+        }
+    })
 })
 
 function calculateArea(layer) {
@@ -47,9 +54,9 @@ function calculateDistance(layer) {
     let tempLatLng = null,
         totalDistance = 0.00000
 
-    $.each(layer._latlngs[0], function(i, latlng){
+    $.each(layer._latlngs[0], function (i, latlng) {
 
-        if(tempLatLng === null){
+        if (tempLatLng === null) {
             tempLatLng = latlng
             return
         }
@@ -67,8 +74,6 @@ function editMarkers() {
         layer.editing.enable()
     }
 }
-
-
 
 
 function coordsPolygon() {
