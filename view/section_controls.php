@@ -23,32 +23,26 @@
             tabber-ы.
         </li>
     </ol>
-    <div id="firstDivOnPage"><p><span></span></p></div>
     <div class="controls">
-        <div class="left-side resizable">
-            <p>TEST</p>
-            <span id="resizableY" class="bottom-resize"></span>
-            <span id="resizableX" class="right-resize"></span>
+        <div class="left-side resizable resizable1">
+            <p>Left Side</p>
+        </div>
+        <div class="right-side right-side-up resizable resizable2">
+            <p>Up Side</p>
         </div>
         <div class="right-side">
-            <p>TEST</p>
-        </div>
-        <div class="right-side">
-            <p>TEST</p>
-        </div>
-
-        <div class="tabs">
-            <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
-            <label for="tab-btn-1">Вкладка 1</label>
-            <input type="radio" name="tab-btn" id="tab-btn-2" value="">
-            <label for="tab-btn-2">Вкладка 2</label>
-            <div id="content-1">
-                <textarea id="changed" placeholder=""></textarea>
-            </div>
-            <div id="content-2">
-                <textarea id="editDiv" placeholder=""></textarea>
+            <div class="tabs">
+                <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+                <label for="tab-btn-1">Один</label>
+                <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+                <label for="tab-btn-2">Два</label>
+                <div id="content-1">
+                    <textarea id="changer1" placeholder=""></textarea>
+                </div>
+                <div id="content-2">
+                    <textarea id="changer2" placeholder=""></textarea>
+                </div>
             </div>
         </div>
-
     </div>
 </section>
