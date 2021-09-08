@@ -82,7 +82,7 @@ section:after {
     color: #92AAB0;
     text-align: center;
     vertical-align: middle;
-    padding: 30px 0px;
+    padding: 30px 0;
     margin-bottom: 10px;
     font-size: 200%;
     cursor: default;
@@ -104,8 +104,6 @@ section:after {
     background-color: #5a7bc2;
     padding: 5px 15px;
     color: white;
-    padding: 6px 0px;
-    font-size: 40%;
     font-weight: normal;
     font-size: 12px;
     cursor: pointer;
@@ -114,7 +112,7 @@ section:after {
     overflow: hidden;
     display: block;
     width: 300px;
-    margin: 20px auto 0px auto;
+    margin: 20px auto 0 auto;
 }
 
 .uploader .browser input {
@@ -153,7 +151,6 @@ section:after {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-flow: column wrap;
     flex-flow: column wrap;
     width: 100%;
     max-width: 100%;
@@ -286,31 +283,27 @@ section:after {
 
 
 ::-webkit-scrollbar-button {
-    background-image: url('');
-    background-repeat: no-repeat;
     width: 1px;
-    height: 0px
+    height: 0
 }
 
 ::-webkit-scrollbar-track {
     background-color: #88888866;
-    -webkit-box-shadow: 0px 0px 3px #000 inset;
-    box-shadow: 0px 0px 3px #000 inset;
+    -webkit-box-shadow: 0 0 3px #000 inset;
+    box-shadow: 0 0 3px #000 inset;
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 4px;
     background-color: #202020;
-    -webkit-box-shadow: 0px 1px 1px #fff inset;
-    box-shadow: 0px 1px 1px #fff inset;
+    -webkit-box-shadow: 0 1px 1px #fff inset;
+    box-shadow: 0 1px 1px #fff inset;
     background-image: url('https://yraaa.ru/_pu/24/59610063.png');
     background-position: center;
     background-repeat: no-repeat;
 }
 
 ::-webkit-resizer {
-    background-image: url('');
-    background-repeat: no-repeat;
     width: 3px;
     height: 3px
 }
